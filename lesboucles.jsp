@@ -83,7 +83,21 @@
 <h2>Exercice 5 : Triangle isocele</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;*</br>&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;***</br>&nbsp;****</br>*****</p>
+<% for (int i = 1; i <= cpt; i++) { %>
+    <p>
+    <% 
+        for (int s = 1; s <= (cpt - i); s++) { 
+    %>
+        &nbsp;
+    <% } %>
+    <% 
+        for (int j = 1; j <= (2 * i - 1); j++) { 
+    %>
+        *
+    <% } %>
+    </p>
+<% } %>
+
 
 <h2>Exercice 6 : Le demi losange</h2>
 <p>Ecrire le code afin de produire un losange</p>
