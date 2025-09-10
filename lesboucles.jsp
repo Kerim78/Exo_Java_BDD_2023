@@ -62,7 +62,23 @@
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</br>&nbsp;&nbsp;&nbsp;&nbsp;***</br>&nbsp;&nbsp;****</br>*****</p>
+<% for (int i = 1; i <= cpt; i++) { %>
+    <p>
+    <% 
+        // Afficher les espaces à gauche
+        for (int s = 1; s <= (cpt - i); s++) { 
+    %>
+        &nbsp;&nbsp;
+    <% } %>
+    <% 
+        // Afficher les étoiles
+        for (int j = 1; j <= i; j++) { 
+    %>
+        *
+    <% } %>
+    </p>
+<% } %>
+
 
 <h2>Exercice 5 : Triangle isocele</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
