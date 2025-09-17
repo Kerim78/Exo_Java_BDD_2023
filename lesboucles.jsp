@@ -138,10 +138,13 @@
 
 <h2>Exercice 7 : La table de multiplication</h2>
 <p>Ecrire le code afin de créser une table de multiplication</p>
+
 <%   
      for (int j = cpt; j <= i; j++) { 
  %>
-    5 x j = 5*j
+    <p>
+        <%="5 x "%> <%j%> <%="="%>  
+    <%5*j%>
         
 <% } %>
 
