@@ -139,14 +139,7 @@
 <h2>Exercice 7 : La table de multiplication</h2>
 <p>Ecrire le code afin de créser une table de multiplication</p>
 
-/*<%   for (int i = 1; i <= cpt; i++) { %>
-    <p>
-        <%= "5 x " %>
-        <%= i %> 
-        <%= "=" %>  
-        <% 5*i %>
-    </p>    
-<% } %>*/
+
 
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
