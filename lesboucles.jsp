@@ -112,33 +112,6 @@
     <% } %>
     <% 
         // Afficher les étoiles
-<% for (int i = 1; i <= cpt; i++) { %>
-    <p>
-    <% 
-        // Espaces à gauche pour la première partie
-        for (int s = 1; s <= (cpt - i); s++) { 
-    %>
-        &nbsp;&nbsp;
-    <% } %>
-    <% 
-        // Étoiles croissantes
-        for (int j = 1; j <= i; j++) { 
-    %>
-        *
-    <% } %>
-    </p>
-<% } %>
-
-<% for (int i = cpt - 1; i >= 1; i--) { %>   <!-- on commence à cpt-1 pour ne pas répéter la ligne max -->
-    <p>
-    <% 
-        // Espaces à gauche pour aligner à droite
-        for (int s = 1; s <= (cpt - i); s++) { 
-    %>
-        &nbsp;&nbsp;
-    <% } %>
-    <% 
-        // Étoiles décroissantes
         for (int j = 1; j <= i; j++) { 
     %>
         *
