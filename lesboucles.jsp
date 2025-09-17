@@ -143,9 +143,11 @@
      for (int i = 1; j <= cpt; j++) { 
  %>
     <p>
-        <%="5 x "%> <%=j%> <%="="%>  
-    <%5*j%>
-        
+        <%= "5 x " %>
+        <% = j %> 
+        <%= "=" %>  
+        <% 5*j %>
+    </p>    
 <% } %>
 
 <p><a href="index.html">Retour au sommaire</a></p>
