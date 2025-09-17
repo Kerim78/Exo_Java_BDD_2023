@@ -141,7 +141,11 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>
 </p>
-
+<% for (i=1; i<=cpt; i++) %>
+<%= "5 x" %>
+<%= i %>
+<%= " = " %>
+<% 5*i%>
 
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
