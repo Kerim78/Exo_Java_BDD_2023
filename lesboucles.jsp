@@ -120,7 +120,7 @@
 <% } %>
 <% for (int i = cpt; i >= 1; i--) { %>
     <p>
-    <% for (int j = 1; j <= i; j--) { %>
+    <% for (int j = cpt; j <= i; j--) { %>
         * 
     <% } %>
     </p>
