@@ -140,7 +140,7 @@
 <p>Ecrire le code afin de créser une table de multiplication</p>
 
 <%   
-     for (int j = cpt; j <= i; j++) { 
+     for (int i = 1; j <= cpt; j++) { 
  %>
     <p>
         <%="5 x "%> <%j%> <%="="%>  
