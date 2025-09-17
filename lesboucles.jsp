@@ -141,8 +141,7 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>
 </p>
-<% for (int i = 1; i <= 10; i++) { %>
-    <p><%= "5 x " + i + " = " + (5 * i) %></p>
+
 <% } %>
 
 <p><a href="index.html">Retour au sommaire</a></p>
