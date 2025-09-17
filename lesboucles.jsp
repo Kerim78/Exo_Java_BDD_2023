@@ -118,6 +118,22 @@
     <% } %>
     </p>
 <% } %>
+<% for (int i = cpt; i >= 1; i--) { %>
+    <p>
+    <% 
+        // Espaces à gauche pour aligner vers la droite
+        for (int s = 1; s <= (cpt - i); s++) {
+    %>
+            &nbsp;&nbsp;
+    <% } %>
+    <% 
+        // Étoiles décroissantes
+        for (int j = 1; j <= i; j++) { 
+    %>
+        *
+    <% } %>
+    </p>
+<% } %>
 
 
 <h2>Exercice 7 : La table de multiplication</h2>
