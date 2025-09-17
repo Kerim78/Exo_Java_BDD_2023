@@ -138,9 +138,12 @@
 
 <h2>Exercice 7 : La table de multiplication</h2>
 <p>Ecrire le code afin de créser une table de multiplication</p>
+<p>Exemple si l'utilisateur saisie le valeur 5</p>
+<p>
+</p>
 
 
-
+<% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
