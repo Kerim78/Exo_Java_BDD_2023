@@ -33,6 +33,16 @@
 
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
+int compteur=0;
+for (int i=0; i<name.length();i++)
+{
+    if (name.charAt(i) == 'e')
+    compteur++;
+}
+<p>
+ <%= "Le compteur : " + compteur %>
+</p>
+
 <p>Ecrire un programme pour compter le nombre de lettre e dans votre chaine de charactères</p>
 
 <h2>Exercice 2 : Affichage verticale</h2>
