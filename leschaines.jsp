@@ -33,12 +33,12 @@
 
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
-int compteur=0;
-for (int i=0; i<name.length();i++)
-{
-    if (name.charAt(i) == 'e')
-    compteur++;
-}
+<%int compteur=0;%>
+<%for (int i=0; i<name.length();i++)%>
+<%{%>
+<%    if (name.charAt(i) == 'e')%>
+<%    compteur++;%>
+<%}%>
 <p>
  <%= "Le compteur : " + compteur %>
 </p>
