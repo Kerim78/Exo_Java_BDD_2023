@@ -17,7 +17,28 @@
 
 </form>
 
-<% 
-String Titre = request.getParameters("titre");
-String Description = request.getParameters("Description");
+/!<% 
+/!String Titre = request.getParameters("titre");
+/!String Description = request.getParameters("Description");
+/!%>
+
+<%! 
+    class MyClass {
+        String nameTache;
+
+        public MyClass(String name) {
+            nameTache = name;
+        }
+    }
+%>
+
+<%
+    String valeur = request.getParameter("valeur");
+
+    if (valeur != null && !valeur.isEmpty()) {
+        MyClass tache = new MyClass(valeur);
+%>
+        <p>Nom de la tâche : <%= tache.nameTache %></p>
+<%
+    }
 %>
