@@ -7,10 +7,20 @@
 <h1>TP Gestionnaire des tâches</h1>
 <form action="#" method="post">
     <label for="inputValeur">Veuillez saisir une tâche : </label>
-    <input type="text" id="inputValeur" name="valeur">
+    <input type="text" id="inputValeur" name="titre">
     <input type="submit" value="Entrer">
-
+<h1></h1>
     <label for="inputValeur">Description de la tâche : </label>
-    <input type="text" id="inputValeur" name1="valeur">
+    <input type="text" id="inputValeur" name1="description">
     <input type="submit" value="Entrer">
 </form>
+
+<% 
+
+    public class Tache 
+    {
+        String Titre = request.getParameters("titre");
+    }
+
+
+%>
