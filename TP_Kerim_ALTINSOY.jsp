@@ -33,7 +33,7 @@
     if (titre != null && !titre.isEmpty()) {
         MyClass tache = new MyClass(titre);
 %>
-        <p>Nom de la tâche : <%= tache.nameTache %></p>
+        <p>Nom de la tâche : <%= tache.nameTache %></br></p>
 <%
     }
 %>
