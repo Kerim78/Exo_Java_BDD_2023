@@ -19,6 +19,8 @@
 
 
 <%
+    string []tab;
+    int i;
     class MyClass {
         String nameTache;
 
@@ -33,7 +35,9 @@
     if (titre != null && !titre.isEmpty()) {
         MyClass tache = new MyClass(titre);
 %>
-        <p>Nom de la tâche : <%= tache.nameTache %></br></p>
+        <p>Nom de la tâche : <%= tache.nameTache %></p>
 <%
+    i=titre.length;
+    [i]tab = titre;
     }
 %>
