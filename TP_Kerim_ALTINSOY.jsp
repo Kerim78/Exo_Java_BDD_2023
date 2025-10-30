@@ -20,7 +20,4 @@
 <% 
 String Titre = request.getParameters("titre");
 String Description = request.getParameters("Description");
-  
-
-
 %>
