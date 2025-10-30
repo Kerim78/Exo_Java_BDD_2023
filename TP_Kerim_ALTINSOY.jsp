@@ -19,7 +19,7 @@
 
 <% 
 
-    public class Tache 
+    class Tache 
     {
         String Titre = request.getParameters("titre");
     }
