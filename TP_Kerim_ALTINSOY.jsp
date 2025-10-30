@@ -31,7 +31,6 @@
 
 <%
     String titre = request.getParameter("titre");
-    String description = request.getParameter("description");
     if (valeur != null && !valeur.isEmpty()) {
         MyClass tache = new MyClass(titre);
 %>
