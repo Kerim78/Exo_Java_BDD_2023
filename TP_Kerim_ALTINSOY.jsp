@@ -17,12 +17,11 @@
 
 </form>
 
-/!<% 
-/!String Titre = request.getParameters("titre");
-/!String Description = request.getParameters("Description");
-/!%>
-
-<%! 
+<!<% 
+String Titre = request.getParameters("titre");
+String Description = request.getParameters("Description");
+%>
+ 
     class MyClass {
         String nameTache;
 
