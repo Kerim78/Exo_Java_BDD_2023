@@ -17,10 +17,8 @@
 
 </form>
 
-<!<p
-String Titre = request.getParameters("titre");
-String Description = request.getParameters("Description");
-</p>
+
+
 <%
     class MyClass {
         String nameTache;
