@@ -4,7 +4,7 @@
 <title>Gestionnaire des tâches</title>
 </head>
 <body bgcolor=white>
-<h1>Exercices sur les boucles</h1>
+<h1>TP Gestionnaire des tâches</h1>
 <form action="#" method="post">
     <label for="inputValeur">Veuillez saisir une tâche : </label>
     <input type="text" id="inputValeur" name="valeur">
