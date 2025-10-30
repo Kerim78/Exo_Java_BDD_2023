@@ -35,5 +35,6 @@
 %>
         <p>Nom de la tâche : <%= tache.nameTache %></p>
 <%
+    <p></p>
     }
 %>
