@@ -9,7 +9,7 @@
     <label for="inputValeur">Veuillez saisir une tâche : </label>
     <input type="text" id="inputValeur" name="titre">
     <input type="submit" value="Entrer">
-<h1></h1>
+<p></p>
     <label for="inputValeur">Description de la tâche : </label>
     <input type="text" id="inputValeur" name1="description">
     <input type="submit" value="Entrer">
