@@ -8,8 +8,5 @@
 <form action="#" method="post">
     <label for="inputValeur">Veuillez saisir le nombre de tâche que vous souhaitez : </label>
     <input type="text" id="inputValeur" name="valeur">
-    <input type="submit" value="Afficher">
+    <input type="submit" value="Entrer">
 </form>
-
-
-
